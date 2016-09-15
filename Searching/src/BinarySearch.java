@@ -43,7 +43,7 @@ public class BinarySearch {
 		System.out.print("Input Key : ");
 		int key = keyboard.nextInt();
 		
-		//BinarySearchRecursively(array, 0, n, key);
+		BinarySearchRecursively(array, 0, n, key);
 		BinarySearchFunc(array, 0, n, key);
 	}
 
