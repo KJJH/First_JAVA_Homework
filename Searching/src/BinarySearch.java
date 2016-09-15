@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class BinarySearch {
-	// Àç±ÍÇÔ¼ö
+	// ì¬ê·€í•¨ìˆ˜
 	public static void BinarySearchRecursively(int[] arr, int left, int right, int key){
 		if(left >right)
 			return;
@@ -16,7 +16,7 @@ public class BinarySearch {
 				System.out.println("Find Key("+arr[mid]+")!");
 		}
 	}
-	// ÀÏ¹İÇÔ¼ö
+	// ì¼ë°˜í•¨ìˆ˜
 	public static void BinarySearchFunc(int[] arr, int left, int right, int key){
 		while(left<=right){
 			int mid = (left + right)/2;
